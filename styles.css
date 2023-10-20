@@ -1,0 +1,2312 @@
+body {
+  margin: 0 auto;
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  src: url(../BebasNeueBold.otf);
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.faq-button {
+  margin: 10px;
+  width: 250px;
+}
+
+.margin-right-25 {
+  margin-right: 25px;
+}
+
+.margin-left-25 {
+  margin-left: 25px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.display-flex-12 {
+  display: flex;
+  column-gap: 50px;
+}
+
+.display-flex {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.width-65 {
+  width: 65%;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.height-75 {
+  height: 75px;
+}
+
+.width-55 {
+  width: 55%;
+}
+
+.width-45 {
+  width: 45%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-33 {
+  width: 33%;
+}
+
+.nunito {
+  font-family: "Nunito Sans Black 900", sans-serif;
+}
+
+#bonus {
+  margin-right: 50px;
+}
+
+.header {
+  background-image: linear-gradient(to right, #f37221, #f7412d);
+  padding: 0px 0px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 4px 2px -2px gray;
+  z-index: 999;
+  justify-content: center;
+  width: 100%;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.navigation li a:hover {
+  color: #278ead;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+body>div {
+  padding: 0 30px 0 30px !important;
+}
+
+#workshop span {
+  padding: 5px 13px;
+  position: relative;
+  /* top: 40%; */
+  font-weight: bolder;
+  background-color: #00000080;
+  top: 5vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    padding: 0 !important;
+  }
+
+  .book-now2 {
+    margin-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .itinerary th,
+  td {
+    padding: 5px !important;
+  }
+
+  .width-33 img {
+    display: none;
+  }
+
+  .book-now-main {
+    margin: 0 auto !important;
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
+  }
+}
+
+.book-now {
+  /* margin-left: 20px; */
+}
+
+.book-now a {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #006199;
+  border: 1px solid transparent;
+  border-radius: 1.25rem;
+  box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 180PX;
+}
+
+.book-now a:hover {
+  color: #f5e6ca;
+}
+
+.book-now2 {
+  background-color: #a13a39;
+  padding: 15px;
+  height: 52px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  /* margin-bottom: 45px; */
+  display: none;
+}
+
+.book-now2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.book-now2 a:hover {
+  color: #f5e6ca;
+}
+
+.room-match {
+  background-color: #006199;
+  padding: 15px;
+  height: 75px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.room-match a {
+  color: white;
+  text-decoration: none;
+}
+
+.room-match a:hover {
+  color: #f5e6ca;
+}
+
+.feature {
+  padding-top: 50px;
+  background-color: #ccffff;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 0 !important;
+}
+
+.feature2 {
+  padding: 25px;
+  padding-top: 60px;
+}
+
+.feature-header {
+  color: #006199;
+  font-weight: bold;
+  font-size: 30px;
+  /* text-transform: uppercase; */
+  /* font-weight: bolder; */
+  color: #006199;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: var(--bs-body-font-family);
+  /* text-transform: capitalize; */
+}
+
+.feature-ports {
+  /* color: #006199; */
+  /* font-weight: bold; */
+  /* font-size: 30px; */
+  /* font-family: 'Old Standard TT', serif; */
+}
+
+.welcome {
+  background-color: white;
+  width: 100%;
+  color: black;
+  padding-top: 35px !important;
+  padding-bottom: 75px;
+  /* padding-right: 0 !important; */
+  /* padding-RIGHT: 25px !important; */
+}
+
+.welcome2 {
+  max-width: 1800px;
+  width: 100%;
+  color: black;
+  display: flex;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.letter {
+  margin: 25px;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  max-width: 1200px;
+  text-align: left;
+}
+
+.letter-side {
+  /* height: 40%; */
+  /* max-height: 550px; */
+  /* display: block; */
+  margin-bottom: 20px;
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  /* width: 100%; */
+}
+
+.workshop {
+  background-color: white;
+  /* color: #005d60; */
+  padding-top: 15px;
+  padding-bottom: 75px;
+  width: 100%;
+  margin: 0 auto;
+  /* height: 100%; */
+  padding-top: 35px !important;
+  text-align: center;
+}
+
+.workshop2 {
+  display: flex;
+  color: #005d60;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.lern-mr {
+  background-color: #a13a39;
+  padding: 17px;
+  text-align: center;
+  color: #fff;
+  font-family: "Nunito Sans";
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 19px;
+  border-radius: 15px;
+}
+
+.lern-mr:hover {
+  background-color: #a13a39;
+  color: #fff;
+}
+
+.teal-text {
+  color: #005d60;
+}
+
+.workshop-text {
+  width: 60%;
+}
+
+.workshop-img {
+  width: 50%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.workshop-img2 {
+  margin: 25px 0 25px 25px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.top-section-header-label {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 125px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 350px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 85px;
+}
+
+.workshop-header-label {
+  background-image: url(../links/section_Headers_Workshop.png);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 250px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.itinerary-header-label {
+  background-image: url(../links/section_Headers_Itinerary.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 250px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.pickup-line {
+  background-color: #006199;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 15px;
+  width: 90%;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.pickup-line a {
+  color: #f6985e;
+}
+
+.pickup-line a:hover {
+  color: #f5e6ca;
+}
+
+.itinerary {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 65%;
+}
+
+.itinerary table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.itinerary th {
+  background-color: #0db7c9;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.itinerary th,
+td {
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.itinerary-odd {
+  background-color: #f5e6ca;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.itinerary-even {
+  background-color: #e9cea9;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.itinerary-whole {
+  background-image: url(../links/background_Itinerary.png);
+  width: 100%;
+  padding: 75px;
+  padding-top: 35px !important;
+}
+
+.itinerary-gfx {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.itinerary-gfx img.normal {
+  width: 100%;
+}
+
+.itinerary-line {
+  margin: 0 auto;
+  background-color: #188fa3;
+  padding: 35px;
+  font-family: "Old Standard TT", serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.ports-header-label {
+  background-image: url(../links/section_Headers_Ports_Of_Call.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 250px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.waves-blue {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.ports {
+  background-color: #e6f3e9;
+  text-align: center;
+  padding: 75px;
+  margin: 0 auto;
+}
+
+.ports-header {
+  width: 100%;
+  padding: 15px 15px 10px 15px;
+  background-color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  color: #145e99;
+  text-align: left;
+}
+
+.subject-to-change {
+  font-family: "Nunito Regular", sans-serif;
+}
+
+.rooms1 .ports-content {
+  padding: 20px;
+}
+
+.ports-content {
+  padding: 0px 20px 20px 20px;
+  font-family: "Nunito Regular", sans-serif;
+  color: #2068b3;
+  text-align: left;
+}
+
+.port-card {
+  margin: 20px;
+  min-height: auto;
+  width: 100%;
+  background-color: white;
+  font-family: "Old Standard TT", serif;
+}
+
+.list-card {
+  display: flex;
+  justify-content: center;
+}
+
+.dark-blue-text {
+  color: #006199;
+}
+
+.blue-text {
+  color: #278ead;
+}
+
+.orange-text {
+  color: #f6985e;
+  letter-spacing: 0px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.tan-text {
+  color: #f5e6ca;
+}
+
+.stateroom-room-type {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.room-header-label {
+  background-image: url(../links/Images_Header-State_Rooms.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 250px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.rooms {
+  background-color: #d7ede6;
+  width: 100%;
+  padding: 50px;
+  color: black;
+  justify-content: center;
+  font-family: "Roboto";
+  padding-top: 25px !important;
+}
+
+.deck-plan {
+  margin: 0 auto;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  width: 100%;
+  text-align: center;
+}
+
+.room-card {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px grey;
+  min-height: 800px;
+  background-color: white;
+  font-family: "Old Standard TT", serif;
+}
+
+.room-table {
+  margin: 0 auto;
+}
+
+.room-pricing {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.locations span {
+  font-size: 0.95em;
+  display: table;
+  margin: 0 auto;
+}
+
+.locations span:not(:first-child) {
+  padding-top: 5px;
+}
+
+.room-pricing-2 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.room-info-box {
+  background-color: #006199;
+  box-shadow: 3px 3px 5px grey;
+  min-height: 550px;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.creditBonus-header-label {
+  background-image: url(../links/image_Additional_Costs.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 125px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 350px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.faq-header-label {
+  background-image: url(../links/section_Headers_FAQ.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 125px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 350px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+  .faq img {
+    max-height: 350px;
+    width: 40%;
+    position: relative;
+    height: auto !important;
+    top: 35px;
+  }
+}
+
+.faq {
+  background-color: white;
+  width: 100%;
+  padding: 50px;
+  color: black;
+  margin-bottom: 80px;
+}
+
+.book-header-label {
+  background-image: url(../links/section_Headers_Book_Now.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 125px;
+  color: white;
+  text-shadow: 1px 1px 10px #000000, 1px 1px 10px #000000;
+  height: 350px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 85px;
+}
+
+.book {
+  background-color: white;
+  width: 100%;
+  color: black;
+  justify-content: center;
+  padding-top: 50px !important;
+}
+
+.book-card {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px grey;
+  min-height: 520;
+  background-color: white;
+  text-align: center;
+}
+
+.book2 {
+  background-image: url(../images/background_Book_Now_Reservations.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  padding: 50px;
+  justify-content: center;
+}
+
+.deposit-text {
+  font-size: 30px;
+  margin: 25px;
+  margin-bottom: 50px;
+}
+
+.arrival-departure-card {
+  margin: 20px;
+  background-color: white;
+  font-family: "Old Standard TT", serif;
+}
+
+.add-costs-card {
+  margin: 20px;
+  width: 100%;
+  background-color: white;
+  font-family: "Old Standard TT", serif;
+  margin-bottom: 80px;
+}
+
+.footer {
+  background-color: #006199;
+  width: 100%;
+  /* height: 300px; */
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.booknownew {
+  display: flex;
+  justify-content: center;
+  margin: 5% 15%;
+  /* margin: 0 auto; */
+}
+
+.bimgnew {
+  /* width: 50%; */
+  text-align: right;
+}
+
+.imgg {
+  /* width: 60%; */
+}
+
+.buttnew {
+  width: 250px;
+}
+
+.book-now-main {
+  width: 100%;
+  /* text-align: left; */
+  margin: 0 auto;
+  margin-top: 9%;
+  border-radius: 30px;
+  /* margin-left: 50px; */
+}
+
+.book-now-main:hover,
+.book-now:hover,
+.lern-mr:hover {
+  transform: translateY(-1px);
+}
+
+.book-now:focus,
+.book-now:hover,
+.lern-mr:hover,
+.lern-mr:focus {
+  box-shadow: rgb(0 0 0 / 10%) 0 4px 12px;
+}
+
+.book-now-main a,
+.lern-mr {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #a13c38;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.book-now-main a:hover {
+  color: #f5e6ca;
+}
+
+.logobook {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+
+.logobook img {
+  width: 80%;
+}
+
+.hero-image {
+  background-image: url("../herosection/Hero_Cozumel.webp");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  top: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.containerLeft {
+  padding-bottom: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  height: 100vh;
+  z-index: 500;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.imageRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.imageRight>.personImage {
+  height: 100vh;
+  position: absolute;
+  top: 18%;
+}
+
+.imageRight>.shape {
+  position: absolute;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  bottom: -88px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Nunito Sans Black 900", sans-serif;
+  font-weight: 900;
+  display: none;
+}
+
+.containerLeft>h4 {
+  /* font-size: 3.2em; */
+  margin-top: 0.4em;
+  text-transform: uppercase;
+  /* border-radius: 15px; */
+  letter-spacing: 4px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.spanTitle {
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+.containerLeft h1 {
+  font-size: 2.5em;
+  margin-left: -90px;
+  /* font-weight: 900; */
+  text-transform: capitalize;
+  font-family: BebasNeueBold;
+  padding-left: 10px;
+  color: white;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  padding-left: 85px;
+}
+
+.containerLeft h1 span {
+
+  text-transform: none;
+
+  font-family: 'Nunito Sans';
+
+  font-style: italic;
+
+  letter-spacing: 4px;
+
+  font-size: 20px;
+
+  color: #f37221;
+
+  FONT-WEIGHT: bold;
+
+  display: block;
+}
+
+.containerLeft p {
+  margin-top: -0.01em;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  background-color: #f37221;
+  text-transform: uppercase;
+  width: fit-content;
+  font-family: "Inter", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.containerLeft h5 {
+  margin-left: 0.1em;
+  font-size: 2em;
+  text-transform: uppercase;
+  border-radius: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 0 #006199, -2px -2px 0 #006199, 2px -2px 0 #006199,
+    -2px 2px 0 #006199;
+}
+
+.containerLeft h5>span {
+  font-size: 1.3em;
+  text-shadow: 2px 2px 0 #006199, -2px -2px 0 #006199, 2px -2px 0 #006199,
+    -2px 2px 0 #006199;
+  text-shadow: 4px 5px 10px black;
+}
+
+.containerLeft .lastChild {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 0 #006199, -2px -2px 0 #006199, 2px -2px 0 #006199,
+    -2px 2px 0 #006199;
+  text-shadow: 4px 4px 11px black;
+}
+
+.shape {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Extream small devices (phones) */
+@media only screen and (max-width: 321px) {
+  .hero-image {
+    height: 80vh;
+    position: relative;
+  }
+
+  .containerLeft {
+    width: 100%;
+    height: 30vh !important;
+    /* padding-bottom: 2em; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 0.5em;
+    padding-top: 8em;
+  }
+
+  .containerLeft h5 {
+    margin-left: 0.6em !important;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    text-shadow: none !important;
+  }
+
+  .containerLeft h1 {
+    font-size: 2.5em;
+    margin-left: -0.2em;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: "Goblin One", sans-serif;
+    padding-left: 10px;
+    color: white;
+    text-shadow: none !important;
+    /* text-shadow: 3px 3px 0 #006199, -3px -3px 0 #006199, 3px -3px 0 #006199, -2px 2px 0 #006199; */
+  }
+
+  .containerLeft p {
+    margin-top: -0.01em;
+    font-size: 2em;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    background-color: #fb9e43;
+    text-transform: uppercase;
+    width: 75%;
+    font-family: "Inter", sans-serif;
+    text-shadow: 0px 0.5px 0.5px #00000099;
+  }
+
+  .spanTitle {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+  }
+
+  .imageRight {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30vh;
+  }
+
+  .imageRight>.personImage {
+    height: 100%;
+  }
+
+  .hero-text {
+    display: block;
+    position: static;
+    text-align: center;
+    bottom: initial;
+    transform: none;
+    margin-bottom: 1em;
+  }
+
+  .containerLeft h5 {
+    font-size: 0.8em;
+    margin-left: 0.5em;
+  }
+
+  .containerLeft h4 {
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-left: 0.5em;
+  }
+
+  .containerLeft h1 {
+    font-size: 100%;
+  }
+
+  .containerLeft p {
+    font-size: 0.8em;
+    width: 90%;
+    text-align: left;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  .feature-header {
+    color: #006199;
+    font-weight: bold;
+    margin-bottom: 0em;
+    font-size: 20px;
+  }
+
+  .letter {
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 15px !important;
+  }
+
+  .single-double li {
+    font-size: .9em !important;
+  }
+
+  .single-double.double,
+  .single-double.single {
+    font-size: 12px !important;
+  }
+
+  .view {
+    height: 3.1rem !important;
+    font-size: 12px !important;
+    padding: 0 1rem !important;
+  }
+
+  .bk-hgt {
+    height: 20vh !important;
+  }
+
+  .deck-plan {
+
+    margin-top: 0px !important;
+
+  }
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 425px) {
+  .hero-image {
+    height: 80vh;
+    position: relative;
+  }
+
+  .containerLeft {
+    width: 100%;
+    height: 25vh !important;
+    /* padding-bottom: 2em; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 0.5em;
+    padding-top: 8em;
+    padding-bottom: 1em;
+  }
+
+  .containerLeft img {
+    width: 150px !important;
+  }
+
+  .containerLeft h5 {
+    margin-left: 0.6em !important;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    text-shadow: none !important;
+  }
+
+
+  .containerLeft h1 {
+    font-size: 2em;
+    margin-left: -0.24em;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+    /* font-family: "Goblin One", sans-serif; */
+    padding-left: 10px;
+    color: white;
+    text-shadow: none !important;
+    /* text-shadow: 3px 3px 0 #006199, -3px -3px 0 #006199, 3px -3px 0 #006199, -2px 2px 0 #006199; */
+    padding-right: 5px;
+  }
+
+  .containerLeft p {
+    margin-top: -0.01em;
+    font-size: 2em;
+    letter-spacing: 4px;
+    color: white;
+    padding: 0.5em;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #fb9e43;
+    text-transform: uppercase;
+    width: 75%;
+    font-family: "Inter", sans-serif;
+    text-shadow: 0px 0.5px 0.5px #00000099;
+  }
+
+  .spanTitle {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+  }
+
+  .imageRight {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30vh;
+  }
+
+  .imageRight>.personImage {
+    height: 145%;
+    right: -20%;
+    top: -20%;
+  }
+
+  .hero-text {
+    display: block;
+    position: static;
+    text-align: center;
+    bottom: initial;
+    transform: none;
+    margin-bottom: 1em;
+  }
+
+  .containerLeft h5 {
+    font-size: 0.8em;
+    margin-left: 0.5em;
+  }
+
+  .containerLeft h4 {
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-left: 0.5em;
+  }
+
+  .containerLeft h1 {
+    /* font-size: 100%; */
+  }
+
+  .containerLeft p {
+    font-size: 0.6em;
+    width: 80%;
+    /* text-align: left; */
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  .feature-header {
+    color: #006199;
+    font-weight: bold;
+    margin-bottom: 0em;
+    font-size: 20px;
+  }
+
+  .letter {
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 15px !important;
+  }
+
+  .single-double li {
+    font-size: .9em !important;
+  }
+
+  .single-double.double,
+  .single-double.single {
+    font-size: 12px !important;
+  }
+
+  .view {
+    height: 3.1rem !important;
+    font-size: 12px !important;
+    padding: 0 1rem !important;
+  }
+
+  .bk-hgt {
+    height: 20vh !important;
+  }
+
+  .deck-plan {
+
+    margin-top: 0px !important;
+
+  }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .hero-image {
+    height: 70vh;
+    background-size: cover;
+    margin-top: 80px;
+  }
+
+  .containerLeft img {
+    width: 35% !important;
+  }
+
+  .containerLeft {
+    width: 70%;
+    height: 65vh;
+    padding-bottom: 2em;
+  }
+
+  .imageRight {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .imageRight>.personImage {
+    height: 100%;
+  }
+
+  .hero-text {
+    display: block;
+    position: static;
+    text-align: center;
+    bottom: initial;
+    transform: none;
+    margin-bottom: 1em;
+  }
+
+  .containerLeft h5 {
+    font-size: 1.8em;
+  }
+
+  .containerLeft h4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+  .containerLeft h1 {
+    font-size: 2.8em;
+  }
+
+  .containerLeft p {
+    font-size: 1.2em;
+    /* width: 90%; */
+  }
+}
+
+/* Medium devices (laptops, desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-image {
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .containerLeft {
+    width: 70%;
+    height: 100vh;
+  }
+
+  .imageRight {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .imageRight>.personImage {
+    height: 100%;
+  }
+
+  .hero-text {
+    display: block;
+    position: absolute;
+    bottom: -88px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1em;
+  }
+
+  .containerLeft h5 {
+    font-size: 2em;
+  }
+
+  .containerLeft h1 {
+    font-size: 3em;
+  }
+
+  .containerLeft p {
+    font-size: 1.1em;
+    word-wrap: break-word;
+    /* width: 100%; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerLeft img {
+    width: 40% !important;
+  }
+
+  .hero-image {
+    margin-top: -40px;
+  }
+}
+
+/* Large devices (large laptops, desktops) */
+@media only screen and (min-width: 1200px) {
+  .hero-image {
+    height: 90vh;
+    /* background-size: cover; */
+  }
+
+  .containerLeft {
+    width: 70%;
+    height: 100vh;
+    margin-left: 60px;
+  }
+
+  .imageRight {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .imageRight>.personImage {
+    /* height: 80%; */
+  }
+
+  .hero-text {
+    display: block;
+    position: absolute;
+    bottom: -88px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1em;
+  }
+
+  .containerLeft h5 {
+    font-size: 2em;
+  }
+
+  .containerLeft h1 {
+    font-size: 3.5em;
+  }
+
+  .containerLeft p {
+    font-size: 1.4em;
+  }
+
+  /* .deck-plan {
+
+    margin-top: 0px !important;
+  
+  } */
+}
+
+div#staterooms span {
+  background-color: #00000080;
+  padding: 5px 13px;
+  position: relative;
+  top: 40%;
+  font-weight: bolder;
+}
+
+.lern-mr1 {
+  background-color: #145e99;
+  padding: 10px 17px;
+  text-align: center;
+  color: #fff;
+  font-family: "Nunito Sans";
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 19px;
+  border-radius: 15px;
+  display: block;
+  width: fit-content;
+  margin-top: 40px;
+  cursor: pointer;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  min-width: 200px;
+}
+
+h2.dark-blue-text {
+  font-size: 25px;
+}
+
+button.lern-mr1:hover {
+  background-color: #205b99;
+  color: white;
+}
+
+.port-card1 {
+  margin: 20px;
+  min-height: auto;
+  background-color: white;
+  font-family: "Old Standard TT", serif;
+  /* margin-right: 50px; */
+}
+
+div#book span {
+  background-color: #00000080;
+  padding: 5px 13px;
+  position: relative;
+  top: 6vw;
+  font-weight: bolder;
+  /* font-size: 1em; */
+}
+
+.credit {
+  background-color: #f5e6ca;
+}
+
+.credit:hover {
+  background-color: #f4c382;
+}
+
+.on-borad-label {
+  background-image: url(../images/Image_We_Put_Money_In_Your_Pocket.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
+  color: white;
+  height: 500px;
+  background-size: cover !important;
+}
+
+#itinerary span {
+  background-color: #00000080;
+  padding: 5px 13px;
+  position: relative;
+  /* top: 40%; */
+  font-weight: bolder;
+  top: 5vw;
+}
+
+div#ports span {
+  background-color: #00000080;
+  padding: 5px 13px;
+  position: relative;
+  /* top: 40%; */
+  top: 6vw;
+  font-weight: bolder;
+}
+
+div#faq span,
+div#creditBonus span {
+  background-color: #00000080;
+  padding: 5px 13px;
+  /* margin-top: 40px; */
+  position: relative;
+  /* top: 130px; */
+  font-weight: bolder;
+  top: 6vw;
+}
+
+.locations>div {
+  width: 3.5rem;
+  margin-left: 10px;
+  /* margin-top: 5px; */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 600px) {
+  .port-card img {
+    /* width: 38%; */
+    min-width: 400px;
+    height: fit-content;
+    max-width: 400px !important;
+  }
+}
+
+.rooms1 {
+  background-color: #d7ede6;
+  width: 100%;
+  padding: 50px;
+  color: black;
+  justify-content: center;
+  font-family: "Roboto";
+}
+
+.portpng1 {
+  display: none;
+}
+
+.new-add {
+  color: #d84833;
+}
+
+.new-add ul li {
+  color: #d84833;
+}
+
+.locations .smb {
+  padding-top: 5px;
+  /* position: relative; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .locations {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+    column-count: 3;
+  }
+
+  .single-double>div {
+    min-height: 16.2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .deck-plan {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  table.itinerary {
+    overflow-x: auto;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .display-flex-12 {
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .itinerary-gfx {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .port-card {
+    margin: 20px;
+    min-height: auto;
+    width: 100%;
+    background-color: white;
+    font-family: "Old Standard TT", serif;
+    flex-direction: column;
+  }
+
+  .on-borad-label {
+    background-size: 100% !important;
+    height: 280px;
+  }
+
+  div#faq .faq .display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  div#faq .display-flex .width-33 {
+    width: 50%;
+  }
+
+  .faq-button {
+    margin: 10px;
+    width: 91%;
+    font-size: 15px;
+  }
+
+  div#navbarTogglerDemo01 .d-flex .book-now {
+    margin-left: 0px;
+  }
+
+  .ports {
+    background-color: #f5e6ca;
+    text-align: center;
+    padding: 32px;
+  }
+
+  /* .locations {
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+        column-count: 3;
+    } */
+
+  /* .single-double>div {
+        min-height: 15.5rem;
+    } */
+
+  .welcome2 {
+    width: 100%;
+    color: black;
+    display: flex;
+    padding-top: 0 !important;
+    padding-bottom: 25px;
+    flex-direction: column;
+  }
+
+  .rooms {
+    background-color: #d7ede6;
+    width: 100%;
+    padding: 0px;
+    color: black;
+    justify-content: center;
+    font-family: "Roboto";
+  }
+
+  .port-card1 {
+    width: 50%;
+  }
+
+  .rooms1 {
+    background-color: #d7ede6;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    justify-content: center;
+    font-family: "Roboto";
+  }
+
+  .portpng1 {
+    display: none;
+  }
+}
+
+.footer a {
+  color: #f5e6ca !important;
+}
+
+.footer a:hover {
+  color: #99d6cb !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer img {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div#workshop {
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .workshop-header-label {
+    font-size: 25px;
+    padding: 75px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer img {
+    width: 40%;
+  }
+
+  .stateroom-info {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    align-items: center;
+  }
+
+  .heropng {
+    height: 50%;
+  }
+
+  .portpng {
+    display: none !important;
+  }
+
+  .portpng1 {
+    display: block;
+  }
+
+  .deckplan {
+    width: 100%;
+  }
+
+  .navigation {
+    font-size: 8px;
+    margin-top: 0px;
+  }
+
+  div#staterooms {
+    background-size: cover;
+    font-size: 30px;
+  }
+
+  div#itinerary {
+    background-size: cover;
+  }
+
+  img.logo {
+    width: 135px !important;
+  }
+
+  /* .navigation a {
+        color: #006199;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-left: 5px;
+    } */
+  .feature-ports {
+    color: #006199;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Old Standard TT", serif;
+  }
+
+  h4.dark-blue-text.margin-bottom-50 {
+    font-size: 18px;
+  }
+
+  .welcome2 {
+    width: 100%;
+    color: black;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+  }
+
+  .letter {
+    text-align: center;
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  img.letter-side {
+    margin-top: 30px;
+    margin-bottom: -0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .workshop-img iframe {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .workshop2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .workshop-text {
+    flex: 100%;
+  }
+
+  .workshop-img {
+    flex: 100%;
+    /* margin-bottom: -50px; */
+    width: 100%;
+    margin-right: 0;
+  }
+
+  img.workshop-img2 {
+    margin: 10px 0px 11px 0px;
+  }
+
+  .itinerary-whole {
+    padding: 30px;
+  }
+
+  table.itinerary {
+    overflow-x: auto;
+    display: block;
+    font-size: 12px;
+  }
+
+  .display-flex {
+    flex-wrap: wrap;
+  }
+
+  .itinerary-gfx.width-35 {
+    flex: 100%;
+  }
+
+  .itinerary-line.dark-blue-text.width-55 {
+    flex: 100%;
+    padding: 25px;
+  }
+
+  div#ports {
+    background-size: cover;
+    font-size: 30px;
+  }
+
+  .ports {
+    padding: 10px;
+  }
+
+  img.waves-blue {
+    width: 80%;
+  }
+
+  .single-double.single {
+    font-size: 14px;
+    line-height: 13px;
+  }
+
+  .single-double.double {
+    font-size: 14px;
+    line-height: 13px;
+  }
+
+  .stateroom-info {
+    margin-top: 8rem;
+  }
+
+  button.credit {
+    margin-top: 0px;
+  }
+
+  .book-now a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .double .locations {
+    color: #006199;
+  }
+
+  .locations {
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+    flex-wrap: wrap;
+  }
+
+  .stateroom-info {
+    width: 100% !important;
+    margin-top: 5rem;
+  }
+
+  .smb {
+    width: 23% !important;
+    margin: 3px !important;
+  }
+
+  img.waves-blue {
+    width: 85%;
+  }
+
+  .display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  div#bonus {
+    flex: 100%;
+    margin: 0px;
+  }
+
+  .port-card.width-35 {
+    flex: 100%;
+    margin: 22px auto;
+  }
+
+  .arrival-departure-card.width-50 {
+    flex: 100%;
+    margin: 22px auto;
+  }
+
+  .add-costs-card {
+    flex: 100%;
+    margin: 0px;
+  }
+
+  div#faq {
+    background-size: cover;
+  }
+
+  .faq {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-bottom: 50px !important;
+  }
+
+  .width-33 {
+    flex: 100%;
+  }
+
+  div#book {
+    background-size: cover;
+    background-position: top;
+  }
+
+  .top-section-header-label {
+    margin-top: 55px;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 40px !important;
+  }
+
+  img.margin-right-25 {
+    /* width: 40%; */
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .margin-left-25.margin-top-50.text-center {
+    flex: 100%;
+    margin: 0px;
+  }
+
+  .booknowimage {
+    width: 100%;
+  }
+
+  .booknownew {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bimgnew {
+    flex: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .buttnew {
+    flex: 100%;
+  }
+
+  .logobook {
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    margin: 30px 20px 30px 50px;
+  }
+
+  .itinerary-line {
+    margin: 0 auto;
+    /* background-color: #b7e57a; */
+    padding: 35px;
+    font-family: "Old Standard TT", serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .port-card {
+    margin: 20px 0px 20px 0px;
+    min-height: auto;
+    width: 100%;
+    background-color: white;
+    font-family: "Old Standard TT", serif;
+    flex-direction: column;
+  }
+
+  .port-card img {
+    width: 100%;
+    height: auto;
+    max-width: 100% !important;
+  }
+
+  .port-card1 {
+    width: 100%;
+  }
+
+  .feature-header {
+    color: #006199;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .feature-ports {
+    color: #006199;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Old Standard TT", serif;
+  }
+
+  h4.dark-blue-text.margin-bottom-50 {
+    font-size: 14px;
+  }
+
+  .letter img {
+    margin-bottom: 26px;
+  }
+
+  .workshop {
+    padding: 20px 17px;
+  }
+
+  .itinerary-header-label {
+    font-size: 25px;
+    padding: 70px 0 !important;
+  }
+
+  .itinerary-line {
+    font-size: 17px;
+  }
+
+  .ports-header-label {
+    padding: 80px 0 !important;
+    font-size: 25px;
+  }
+
+  .ports-header {
+    font-size: 20px;
+  }
+
+  .ports-content {
+    font-size: 15px;
+  }
+
+  .room-header-label {
+    padding: 100px 0;
+    font-size: 25px;
+  }
+
+  h5.dark-blue-text.text-center.margin-bottom-50 {
+    font-size: 15px;
+  }
+
+  .on-borad-label {
+    background-size: 100% !important;
+    height: 160px;
+    padding: 0px;
+  }
+
+  .ports-content.nunito.dark-blue-text h5 {
+    font-size: 15px;
+  }
+
+  .ports-content.nunito.dark-blue-text p {
+    font-size: 12px;
+  }
+
+  .ports-content.nunito.dark-blue-text ul li {
+    font-size: 12px;
+  }
+
+  .port-card1 {
+    margin: 0px;
+  }
+
+  .ports-content.nunito.dark-blue-text.text-center h3 {
+    font-size: 18px;
+  }
+
+  .room-match {
+    padding: 12px;
+    height: 65px;
+    width: 150px;
+    margin-top: 25px;
+  }
+
+  .faq-header-label {
+    padding: 85px 0px !important;
+    height: 263px;
+    font-size: 25px;
+  }
+
+  .book-header-label,
+  .top-section-header-label {
+    padding: 85px 0 !important;
+    height: 268px;
+    font-size: 25px;
+  }
+
+  h4.dark-blue-text {
+    font-size: 15px;
+  }
+
+  h3.orange-text {
+    font-size: 20px;
+  }
+
+  h2.dark-blue-text {
+    font-size: 18px;
+  }
+
+  button.lern-mr1 {
+    font-size: 12px;
+  }
+
+  .port-card1 {
+    margin: 20px 0px;
+  }
+
+  .logobook {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    margin: 30px 20px 30px 50px;
+    margin: 30px 0;
+    justify-content: center;
+  }
+}
